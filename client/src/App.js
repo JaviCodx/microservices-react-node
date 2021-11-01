@@ -1,6 +1,7 @@
 import React from "react";
 import PostForm from "./PostForm";
 import PostList from "./Postlist";
+import CommentForm from "./CommentForm";
 const App = () => {
   return (
     <div className="container">
