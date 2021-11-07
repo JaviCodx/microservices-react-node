@@ -8,7 +8,7 @@ const CommentList = ({ comments }) => {
       content = comment.content;
     }
     if (comment.status === "rejected") {
-      content = "This comment was moderated";
+      content = "This comment was rejected";
     }
     if (comment.status === "pending") {
       content = "This comment is pending moderation";
