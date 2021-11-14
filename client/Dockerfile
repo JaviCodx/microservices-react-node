@@ -1,4 +1,6 @@
-FROM node:alpine
+FROM node:lts-alpine
+
+ENV CI=true
 
 WORKDIR /app
 
